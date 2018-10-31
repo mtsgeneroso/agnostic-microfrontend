@@ -1,0 +1,1 @@
+module.exports = (env, argv) => require('./config/' + argv.mode);
