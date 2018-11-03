@@ -1,1 +1,1 @@
-module.exports = (env, argv) => require('./config/' + argv.mode);
+module.exports = (env, argv) => require('./config/' + argv.mode)(argv.mode);
