@@ -3,13 +3,6 @@ module.exports = function (config) {
     frameworks: ['mocha'],
     files: [
       './src/**/*.spec.js'
-    ],
-    browsers: ["ChromeNoSandbox"],
-    singleRun: true,
-    reporters: ['progress', 'coverage-istanbul'],
-    coverageIstanbulReporter: {
-      reports: ['text-summary'],
-      fixWebpackSourcePaths: true
-    }
+    ]
   });
 };
